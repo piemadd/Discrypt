@@ -1,6 +1,7 @@
-# DISCRYPT FOR PRIVACY OVER DISCORD 
+# DISCRYPT 
+## FOR PRIVACY OVER DISCORD 
 
-## A project by [Revin](https://github.com/Polairr/) & [Stephen Sulimani](https://github.com/StephenSulimani/)
+### A project by [Revin](https://github.com/Polairr/) & [Stephen Sulimani](https://github.com/StephenSulimani/)
 
 - [ ] Decide between a Discord Bot and BetterDiscord
 - [ ] Pick a language
