@@ -5,5 +5,7 @@
 
 - [x] Decide between a Discord Bot and BetterDiscord : Discord Bot
 - [x] Pick a language : Golang
+- [x] Write command handler
+- [x] Add ping command
+- [x] Add Discord webhook!
 - [ ] Create a command to exchange public PGP keys
-- [ ] Cheat and use a transpiler because Node is overrated
