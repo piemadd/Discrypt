@@ -2,6 +2,7 @@ package main
 
 import (
 	_ "fmt"
+	"github.com/StephenSulimani/Discrypt/commands"
 	"os"
 	"os/signal"
 	"syscall"
@@ -18,6 +19,7 @@ func main() {
 	utils.HandleFatal("Creating DG session", err)
 
 	dg.AddHandler(events.ReadyEvent)
+	dg.AddHandler(commands.HandleCommand)
 
 	err = dg.Open()
 	utils.HandleFatal("Opening DG session", err)

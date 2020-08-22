@@ -1,0 +1,6 @@
+package constants
+
+var PREFIX = "+"
+var DEV_IDS = []string{"492459066900348958", "656310499524214811"}
+var ALERTS = "746617574543851560"
+var HEX_COLOR = 0x3333cc

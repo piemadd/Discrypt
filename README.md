@@ -1,5 +1,5 @@
-# DISCRYPT 
-## FOR PRIVACY OVER DISCORD 
+# DISCRYPT
+## FOR PRIVACY OVER DISCORD
 
 ### A project by [Revin Bray](https://github.com/Polairr/) & [Stephen Sulimani](https://github.com/StephenSulimani/)
 

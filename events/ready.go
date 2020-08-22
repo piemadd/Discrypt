@@ -1,10 +1,12 @@
 package events
 
 import (
-	"github.com/bwmarrin/discordgo"
 	"log"
+
+	"github.com/bwmarrin/discordgo"
 )
 
-func ReadyEvent(_ *discordgo.Session, e *discordgo.Ready) {
+func ReadyEvent(s *discordgo.Session, e *discordgo.Ready) {
 	log.Println("Bot is ready to go!\n\nLogged in as: " + e.User.Username + "#" + e.User.Discriminator)
+	s.UpdateListeningStatus("status lol")
 }
